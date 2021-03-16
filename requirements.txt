@@ -146,7 +146,6 @@ numpy==1.18.5
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1594166760263/work
 oauthlib==3.1.0
 olefile==0.46
-opencv-python @ file:///C:/Users/NPadmin/Downloads/opencv_python-4.4.0.46-cp38-cp38-win_amd64.whl
 openpyxl @ file:///tmp/build/80754af9/openpyxl_1594167385094/work
 opt-einsum==3.3.0
 packaging==20.4
