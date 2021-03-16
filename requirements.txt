@@ -4,7 +4,7 @@ argh==0.26.2
 asgiref==3.2.10
 bootstrap4==0.1.0
 decorator==4.4.2
-Django-3.1.1-py3-none-any.whl
+Django==3.1.1
 django-ads==1.1.1
 django-appconf==1.0.4
 django-bootstrap3==14.2.0
@@ -33,7 +33,6 @@ lazy-object-proxy==1.4.3
 libarchive-c==2.9
 llvmlite==0.33.0+1.g022ab0f
 locket==0.2.0
-lxml @ file:///C:/ci/lxml_1594822774489/work
 Markdown==3.3.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
