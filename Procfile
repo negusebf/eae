@@ -1,1 +1,1 @@
-web:gunicorn eae.wsgi
+web: gunicorn foresight-eritrea.wsgi
