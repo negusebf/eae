@@ -29,7 +29,7 @@ SECRET_KEY = '3&*a6o3gj$hw3l(#^ohuf*fodi@ckd4u4mc$%d$kmtf4chcxz&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['127.0.0.1', 'foresight-eritrea-web.herokuapp.com']
 
 
 # Application definition
