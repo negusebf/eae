@@ -1,1 +1,1 @@
-web: gunicorn foresighteritrea.wsgi
+web: gunicorn eae.wsgi
