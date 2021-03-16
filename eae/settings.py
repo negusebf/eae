@@ -89,13 +89,13 @@ WSGI_APPLICATION = 'eae.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'NAME': 'eae',
-        'USER': 'root',
-        'PASSWORD': 'Hanna.berhane@123',
+        'HOST': 'ec2-3-91-127-228.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'NAME': 'd3t0ncurtrjhnd',
+        'USER': 'rzyithretmpsyo',
+        'PASSWORD': '48b0b7038fd0dc84a39dec7725f98482b64b9705a9320925d7270653b56d28eb',
         'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",},
     }
 }
