@@ -238,10 +238,6 @@ statsmodels==0.11.1
 sympy @ file:///C:/ci/sympy_1594234545115/work
 tables==3.6.1
 tblib==1.6.0
-tensorboard==2.4.0
-tensorboard-plugin-wit==1.7.0
-tensorflow @ file:///C:/Users/NPadmin/Desktop/tensorflow-2.3.0-cp38-cp38-win_amd64.whl
-tensorflow-estimator==2.3.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
