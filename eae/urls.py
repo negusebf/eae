@@ -42,7 +42,6 @@ urlpatterns = [
     path("categories/blogs/<post_label>", views.CategoricalViewsBlogs.as_view(), name="categorical_view_blogs"),
     path("email_subscribtion/", views.EmailSubscriptionView, name="email_subscription"),
     path("feed_back/", views.FeedBackSubmissionView, name="feedback_submission"),
-    path('email_sender_test/', views.EmailNotificationSender, name='send_notification'),
 ]
 
 
