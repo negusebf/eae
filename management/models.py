@@ -90,28 +90,6 @@ class FeedBackSubmission(models.Model):
     def __str__(self):
         return self.email
 
-class EmailSender(models.Model):
-    subject = models.CharField(max_length=255, default='Negusse Test Website (AUTOMATIC EMAIL SENDER)')
-    to = models.EmailField(max_length=255)
-    e_from = models.EmailField(max_length=255, default='negusebf12@gmail.com')
-    message = models.TextField(default='This is an important message.')
-    sent_on = models.DateTimeField(blank=True, null=True)
-    
-    purposes = [
-    ('newsletter_notifier', 'Newsletter Subscribers Notifier'),
-    ('individual_email', 'Individual'),
-    ('other', 'Other'),
-    ]
-    purpose = models.CharField(max_length=200, null=True, blank=True, choices=purposes)
-
-
-    def send_now(self):
-        self.sent_on = timezone.now()
-        self.save()
-
-    def __str__(self):
-        return self.to    
-
 
 class ManualAdsManager(models.Model):
     ad_cat = [
