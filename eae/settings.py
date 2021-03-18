@@ -221,6 +221,6 @@ MEDIA_URL = '/media/'
 # Email Config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'resinv.pos@gmail.com'
+EMAIL_HOST_USER = 'negusebf12@gmail.com'
 EMAIL_HOST_PASSWORD = 'Hanna.bofta@123'
 EMAIL_USE_TLS = True
