@@ -6,7 +6,6 @@ from management.models import (HomeView,
 								AboutVideo, 
 								EmailSubscriptions, 
 								FeedBackSubmission, 
-								EmailSender,
 								ManualAdsManager)
 from embed_video.admin import AdminVideoMixin
 # Register your models here.
@@ -28,15 +27,6 @@ class SubscribersList(admin.ModelAdmin):
 	search_fields = ('subscriber_email',)
 
 
-class EmailSenderList(admin.ModelAdmin):
-	list_display = ('e_from', 'to', 'subject', 'purpose', 'sent_on')
-	list_display_links = ('subject',)
-	list_filter = ('subject',)
-	list_per_page = 18
-	list_editable = ('sent_on',)
-	search_fields = ('subject',)
-
-
 
 admin.site.register(HomeView, HomeViewListing)
 
@@ -51,8 +41,6 @@ admin.site.register(AboutVideo)
 admin.site.register(EmailSubscriptions, SubscribersList)
 
 admin.site.register(FeedBackSubmission)
-
-admin.site.register(EmailSender, EmailSenderList)
 
 admin.site.register(ManualAdsManager)
 
