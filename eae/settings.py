@@ -93,11 +93,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         #'ENGINE': 'django.db.backends.postgresql_psycopg2',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'HOST': 'ec2-54-224-120-186.compute-1.amazonaws.com',
+        'HOST': 'eae-database.ctkg9zabkrvk.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
-        'NAME': 'd8rcu155s4m906',
-        'USER': 'onhjjeroxvossy',
-        'PASSWORD': '30e5394cb1b876b635af5fb0039b0e0480f20d5df7c6c0762f38ed3877b9d04c',
+        'NAME': 'eae-database',
+        'USER': 'negusebf12',
+        'PASSWORD': 'Hanna.bofta123',
         #'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",},
     }
 }
